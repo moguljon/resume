@@ -1,0 +1,48 @@
+@import '../../index.scss';
+.container {
+    display: flex;
+    // max-width: 160rem;
+}
+
+.main {
+    background: var(color-grey-light);
+    flex: 1;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+    }
+
+    &__img {
+        height: 35rem;
+        margin-right: 2rem;
+        box-shadow: 0 2rem 4rem grey;
+
+        @media only screen and (max-width: $bp-largest) {
+            height: 30rem;
+        }
+    }
+    
+    &__header-one {
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+    }
+
+    &__halfone {
+        margin-right: .7rem;
+        color: var(--color-primary);
+        display: block;
+    }
+}
+
+
+  
+
+  

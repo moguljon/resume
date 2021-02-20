@@ -1,0 +1,64 @@
+@import '../../index.scss';
+
+.resume-container {
+    padding: 15rem 0 5rem 0;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    @media only screen and(max-width: $bp-large) {
+        padding: 15rem 0 0 0;
+      }   
+}
+
+.header-1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    animation: moveLeft 1.2s ease-out;    
+    margin-left: 5rem;
+}
+
+.header-1::after {
+    content: '';
+    height: 2px;
+    width: 100px;
+    background: var(--color-primary);
+    display: table;
+}
+
+.resume {
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+    @media only screen and(max-width: $bp-large) {
+        padding: 3rem;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+      }
+
+    @media only screen and(max-width: $bp-medium) {
+        padding: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+      }
+
+    &__education {
+        margin: 5rem 2rem 0 3rem;
+        box-shadow: 0 1rem 2rem rgb(155, 153, 153);
+        padding: 5rem;
+        animation: moveRight 1.2s ease-out;   
+        
+    }
+}
+
+.resume__education:hover {
+    box-shadow: 0 2rem 4rem rgb(155, 153, 153);
+}
+
+
+.other {
+    margin-top: 6rem;
+}
+
+
