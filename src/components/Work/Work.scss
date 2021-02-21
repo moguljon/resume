@@ -1,13 +1,13 @@
 @import '../../index.scss';
 .work-container {
-    padding: 15rem 0 2rem 0;
+    padding: 20rem 0 7rem 0;
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
 
     @media only screen and(max-width: $bp-large) {
-        padding: 15rem 0 10rem 0;
-        // overflow: hidden;
+        padding: 20rem 3rem 15rem 3rem;
+        overflow: visible;
       }
 }
 .work {
