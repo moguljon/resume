@@ -5,15 +5,16 @@
     overflow-y: scroll;
     overflow-x: hidden;
 
+
+    
     @media only screen and(max-width: $bp-large) {
         padding: 20rem 3rem 15rem 3rem;
       }
 
     @media only screen and(max-width: $bp-medium) {
         padding: 10rem 3rem 20rem 3rem;
-        height: 0;
         overflow-y: hidden;
-        overflow-x: hidden;
+        height: fit-content;
       }
 }
 .work {
