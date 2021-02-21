@@ -1,8 +1,15 @@
+@import '../../index.scss';
+
 .contact {
     padding: 15rem 0 5rem 5rem;
     overflow-y: scroll;
     overflow-x: hidden;
     height: 100vh;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 15rem 15rem 5rem 15rem;
+        overflow: hidden;
+     }
 }
 
 .form {
@@ -12,7 +19,9 @@
     height: 100vh;
     animation: moveRight 1.2s ease-out;
 
-    
+    @media only screen and (max-width: $bp-medium) {
+       flex-direction: column;
+    }
 
     &__container {
         box-shadow: 0 2rem 4rem grey;
@@ -22,6 +31,10 @@
         align-items: center;
         width: 60rem;
         height: 65rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            height: 75rem;
+         }
     }
 
 
