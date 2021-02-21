@@ -1,6 +1,7 @@
 import React from 'react';
 import './Sidebar.scss';
 import { Link } from 'react-router-dom';
+import Social from '../Social/Social';
 
 const Sidebar = () => {
     return(
@@ -23,13 +24,10 @@ const Sidebar = () => {
                     <h3 className='sidebar__content'>Number</h3>
                     <p className='sidebar__description'>908-937-0191</p>
                 </div>
-                <div>
-                    <h3 className='sidebar__content'>Find me On</h3>
-                    <i className="fab fa-medium fa-2x"></i>
-                    <i className="fab fa-github fa-2x"></i>
-                    <i className="fab fa-linkedin fa-2x"></i>
+                <h3 className='sidebar__content'>Find me On</h3>
+                <div className='sidebar__social'>
+                    <Social />
                 </div>
-               
             </div>
     </div>
     )
