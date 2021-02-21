@@ -14,7 +14,7 @@ const Homepage = () => {
                     <img src={img} alt='' className='person__img' />
                     <div className='person__container-all'>
                         <div>
-                            <Header firstName={`Jonathan`} lastName={`Aguilar`}  />
+                            <Header firstname='Jonathan' lastname='Aguilar'  />
                         </div>
                         <div>
                            <Body 

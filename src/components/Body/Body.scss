@@ -1,0 +1,12 @@
+.body {
+    &__paragraph {
+        font-size: 1.3rem;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.ani {
+    animation: moveRight 1.2s ease-out;    
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import './Header.scss';
 
 const Header = ({firstname, lastname}) => {
     return(
-        <h1 className='person__header-one'>
-            <span className='person__halfone'>{firstname}</span>
-            <span className='person__halftwo'>{lastname}</span>
+        <h1 className='header__header-one'>
+            <span className='header__halfone'>{firstname}</span>
+            <span className='header__halftwo'>{lastname}</span>
         </h1>
     )
 }

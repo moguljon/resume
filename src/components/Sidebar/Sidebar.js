@@ -24,7 +24,7 @@ const Sidebar = () => {
                     <h3 className='sidebar__content'>Number</h3>
                     <p className='sidebar__description'>908-937-0191</p>
                 </div>
-                <h3 className='sidebar__content'>Find me On</h3>
+                <h3 className='sidebar__content'>Find Me On</h3>
                 <div className='sidebar__social'>
                     <Social />
                 </div>
