@@ -18,7 +18,7 @@ const Homepage = () => {
                         </div>
                         <div>
                            <Body 
-                            headertwo='Web Developer / Desinger' 
+                            headertwo='Web Developer / Designer' 
                             paragraph='I am a Developer and Designer and I love to work on these skills every day. ' 
                             link1='Portfolio' 
                             link2='Resume' />
