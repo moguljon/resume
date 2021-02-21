@@ -30,15 +30,13 @@ body {
   color: var(color-grey-light);
   font-family: sans-serif;
   // overflow-x: hidden;
-  
- 
 }
 
 button,
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 1rem 2em;
   display: inline-block;
   margin: 2rem 1rem 0 0;
@@ -57,6 +55,19 @@ button,
 
 .btn-primary:hover {
   opacity: 0.9;
+  transform: translateY(-3px);
+}
+
+.btn-primary:active {
+  transform: translateY(3px) ;
+}
+
+.btn-ghost:hover {
+  transform: translateY(-3px);
+}
+
+.btn-ghost:active {
+  transform: translateY(3px) ;
 }
 
 .btn-ghost {
@@ -69,6 +80,9 @@ button,
   opacity: 0.9;
 }
 
+.btn-animated {
+  animation: moveRight 1.2s ease-in; 
+}
 
 @keyframes moveLeft {
   0% {

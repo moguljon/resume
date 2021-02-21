@@ -7,16 +7,20 @@
     overflow-x: hidden;
 
     @media only screen and(max-width: $bp-large) {
-        padding: 15rem 0 10rem 0;
-        // overflow: hidden;
-      }     
+        padding: 10rem 0 10rem 0;
+      } 
+      
+      @media only screen and(max-width: $bp-medium) {
+        overflow-y: hidden;
+        height: fit-content;
+    }
 }
 
 .header-1 {
     font-size: 3rem;
     text-transform: uppercase;
-    animation: moveLeft 1.2s ease-out;    
-    margin-left: 5rem;
+    animation: moveLeft 1.2s ease-in;    
+    text-align: center;
 }
 
 .header-1::after {
@@ -25,6 +29,7 @@
     width: 100px;
     background: var(--color-primary);
     display: table;
+    margin: 0 auto;
 }
 
 .resume {
@@ -48,7 +53,7 @@
         margin: 5rem 2rem 0 3rem;
         box-shadow: 0 1rem 2rem rgb(155, 153, 153);
         padding: 5rem;
-        animation: moveRight 1.2s ease-out;   
+        animation: moveRight 1.2s ease-in;   
         
     }
 }

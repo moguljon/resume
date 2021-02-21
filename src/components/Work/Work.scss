@@ -5,8 +5,6 @@
     overflow-y: scroll;
     overflow-x: hidden;
 
-
-    
     @media only screen and(max-width: $bp-large) {
         padding: 20rem 3rem 15rem 3rem;
       }
@@ -15,7 +13,7 @@
         padding: 10rem 3rem 20rem 3rem;
         overflow-y: hidden;
         height: fit-content;
-      }
+    }
 }
 .work {
     display: grid;
@@ -39,7 +37,7 @@
         opacity: 0.7;
         background: 000;
         cursor: pointer;
-        animation: moveRight 1.2s ease-out;     
+        animation: moveRight 1.2s ease-in;     
     }
 
     &__img:hover {
@@ -50,5 +48,5 @@
 }
 
 .header-animated {
-    animation: moveLeft 1.2s ease-out;
+    animation: moveLeft 1.2s ease-in;
 }
