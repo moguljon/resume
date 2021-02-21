@@ -6,11 +6,13 @@
     overflow-x: hidden;
 
     @media only screen and(max-width: $bp-large) {
+        //overflow: visiable
+        overflow-y: hidden;
         padding: 20rem 3rem 15rem 3rem;
       }
 
     @media only screen and(max-width: $bp-medium) {
-        padding: 20rem 3rem 20rem 3rem;
+        padding: 10rem 3rem 20rem 3rem;
       }
 }
 .work {
