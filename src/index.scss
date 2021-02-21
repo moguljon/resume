@@ -18,6 +18,8 @@ $bp-medium: 56.75em; //900px/
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  overflow-x: hidden;
+  
 
 
   @media only screen and(max-width: $bp-large) {
@@ -30,6 +32,7 @@ body {
   color: var(color-grey-light);
   font-family: sans-serif;
   overflow-x: hidden;
+  
  
 }
 
