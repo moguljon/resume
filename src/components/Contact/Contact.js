@@ -32,7 +32,7 @@ const Contact = () => {
                         <h2 className='form__headertwo'>Contact Us</h2>
                         <div className='form__items'>
                             <h3 className='form__headerthree'>Phone</h3>
-                            <p className='form__phone'>908937019</p>
+                            <p className='form__phone'>9089370191</p>
                         </div>
                         <div className='form__items'>
                             <h3 className='form__headerthree'>Email</h3>

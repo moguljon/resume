@@ -37,6 +37,10 @@ const Resume = () => {
                                 <p className='resume__paragraph1'>YAI</p>
                                 <p className='resume__paragraph2'>Session: 2018-2018</p>
                             </div>
+                         
+                        </div>
+                        <div style={{display: 'flex', justifyContent: 'center', alignItems:'center', marginTop: '4rem'}}>
+                            <a href='https://resume.io/r/Ahq2YpC4a' target='_blank' rel='noreferrer' className='btn btn-ghost'>Full Resume</a>
                         </div>
                     </main>
         
