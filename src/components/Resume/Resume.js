@@ -40,7 +40,7 @@ const Resume = () => {
                          
                         </div>
                         <div style={{display: 'flex', justifyContent: 'center', alignItems:'center', marginTop: '4rem'}}>
-                            <a href='https://resume.io/r/Ahq2YpC4a' target='_blank' rel='noreferrer' className='btn btn-ghost'>Full Resume</a>
+                            <a href='https://resume.io/r/fsXzS10vh' target='_blank' rel='noreferrer' className='btn btn-ghost'>Full Resume</a>
                         </div>
                     </main>
         
